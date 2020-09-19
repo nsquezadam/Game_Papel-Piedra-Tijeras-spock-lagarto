@@ -1,11 +1,24 @@
-// Get the modal
-var modal = document.getElementById("modal");
+// mpodal
+const modal = document.getElementById("modal");
+// boton que abre modal
+const btn = document.getElementById("btnModal");
+// boton que cierra modal
+const span = document.getElementsByClassName("close")[0];
+//variables  juego  
+let papel =  document.getElementById('papel');
+let tijera =  document.getElementById('tijera');
+let piedra =  document.getElementById('piedra');
+let lagarto =  document.getElementById('lagarto');
+let spock =  document.getElementById('spock');
+//variable  nombre 
+let name = document.getElementById('name');
+const btnName =  document.getElementById("btnName")
 
-// Get the button that opens the modal
-var btn = document.getElementById("btnModal");
+btnName.addEventListener('click', (e) => {
+e.preventDefault();    
+console.log('escucho');
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+})
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
@@ -29,9 +42,5 @@ window.onclick = function(event) {
 
 
 
-const op1 = "tijera";
-const op2 = "papel";
-const op3 = "piedra"; 
-let user  ="tijera"
-let cpu ="piedra"
+
 

@@ -28,13 +28,36 @@ body{
     opacity: 0.5;
     background-color: #040404;
 }
+.boxSaludo{
+ border: 1px solid #ecb245;
+ color: #ecb245;
+ font-size: 14px;
+ overflow: hidden;
+ width: 300px;
+ text-align: center;
+ padding-top: 30px;
+
+
+}
+.name{
+    margin-top: 20px;
+ 
+    width:100%;
+    height: 80px;
+    font-size: 18px;
+    color:#000000;
+    text-align: center;
+
+    
+
+}
 .imaSelect{
     width: 100%;
     height: 100%;
 }
 .btnModal{
     width: 200px;
-    height:150px;
+    height:60px;
     border-style: none;
     color: blanchedalmond;
     background-color: black;
